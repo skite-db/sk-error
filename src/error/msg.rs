@@ -2,9 +2,7 @@
 
 #[repr(transparent)]
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
-pub enum ErrorMessage<'a> {
-    New { msg: &'a str },
-}
+pub struct ErrorMessage<'a, Me>(M);
 
 impl<'a> ErrorMessage<'a> {
     /// Create a new error message.
