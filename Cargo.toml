@@ -1,0 +1,8 @@
+[package]
+name = "sk-error"
+description = "Library for handling error in SkiteDB."
+license = "MIT"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
