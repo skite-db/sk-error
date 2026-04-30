@@ -61,6 +61,8 @@ mod tests {
     fn test_error_message_display() {
         let err = ErrorMessage::new("DATABASE_LOCKED");
 
+assert_eq!(format!("{}", err), "DATABASE_LOCKED");
+
         println!("\n[Test Log] Error: {}", err);
     
     }
