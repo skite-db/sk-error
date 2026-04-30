@@ -1,6 +1,6 @@
 [package]
 name = "sk-error"
-description = "Library for handling error in SkiteDB."
+description = "A specialized error handling library focusing on robustness and zero-overhead reporting."
 license = "MIT"
 version = "0.1.0"
 edition = "2024"
