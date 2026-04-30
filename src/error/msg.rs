@@ -63,6 +63,8 @@ mod tests {
 
 assert_eq!(format!("{}", err), "DATABASE_LOCKED");
 
+assert_eq!(err, "DATABASE_LOCKED");
+
         println!("\n[Test Log] Error: {}", err);
     
     }
