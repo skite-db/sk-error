@@ -1,2 +1,2 @@
 pub mod msg;
-pub use self::msg::ErrorMessage;
+pub use crate::error::msg::ErrorMessage;
